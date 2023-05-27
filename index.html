@@ -24,10 +24,10 @@ Entrega: P2-Grupo; Anaí Araya, Isidora Gómez, Teresita Gutiérrez, Sofía Rizz
                     <source src="cancion.mpeg" type="audio/mpeg">
                   </audio>
             </div>
-            <div class="screen">
+            <div class="screen" id="ancla1">
                 <img src="Screenshot1_web.png">  
             </div>
-            <div class="screen">
+            <div class="screen"id="ancla2">
                 <img src="Screenshot2_web.png">
             </div>
             <div class="screen">
@@ -61,7 +61,18 @@ Entrega: P2-Grupo; Anaí Araya, Isidora Gómez, Teresita Gutiérrez, Sofía Rizz
             } else {
                 audio.pause();
             }
-            });
+        });
+
+            playButton.addEventListener("click", function() {
+                setTimeout(function() {
+                var divInferior = document.getElementById("ancla1");
+                divInferior.scrollIntoView({ behavior: 'smooth' });
+            }, 3000);
+                setTimeout(function() {
+                var divInferior = document.getElementById("ancla2");
+                divInferior.scrollIntoView({ behavior: 'smooth' });
+            }, 7000);
+        });
 
         </script>
 
