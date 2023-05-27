@@ -2,12 +2,14 @@
 Profesor: Ricardo Vega
 Ayudante: Paula Santa María y Pía
 Entrega: P2-Grupo; Anaí Araya,Isidora Gómez, Tere Gutierrez, Sofía Rizzoli, Fernanda Villarroel*/
-
+body{
+    cursor: url(cursor.png), auto;
+}
 
 div.pantalla {
     text-align: center;
     padding: 20px;
-    cursor: url(cursor.png), auto;
+    margin-top: 100px;
 }
 
 div.screen {
