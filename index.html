@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>¡Doggy Style!</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="pantalla">
+
+            <div class="screen0" id="botonplay">
+                <audio id="cancioncita">
+                    <source src="cancion.mpeg" type="audio/mpeg">
+                  </audio>
+            </div>
+            <div class="screen1">
+                <img src="Screenshot1_web.png">         
+            </div>
+            <div class="screen2">
+                <img src="Screenshot2_web.png">
+            </div>
+            <div class="screen3">
+                <img src="Screenshot3_web.png">
+            </div>
+            <div class="screen4">
+                <img src="Screenshot4_web.png">
+            </div>
+            <div class="screen5">
+                <img src="Screenshot5_web.png">
+            </div>
+            <div class="screen6">
+                <img src="Screenshot6_web.png">
+            </div>
+            <div class="screen7">
+                <img src="Screenshot7_web.png">
+            </div>
+            <div class="screen8">
+                <img src="Screenshot8_web.png">
+            </div>
+        </div>
+    
+        <script>
+            alert("¡Mario hugo salió a trabajar!");
+
+            var audio = document.getElementById("cancioncita");
+            var playButton = document.getElementById("botonplay");
+
+            playButton.addEventListener("click", function() {
+            if (audio.paused) {
+                audio.play();
+            } else {
+                audio.pause();
+            }
+            });
+
+        </script>
+
+    </body>
+</html>

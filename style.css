@@ -1,0 +1,48 @@
+div.pantalla {
+    text-align: center;
+    padding: 20px;
+    cursor: url(cursor.png), auto;
+}
+
+div.screen0 {
+    width: 100vw;
+    height: 100vh; 
+}
+
+div.screen1 {
+    width: 100vw;
+    height: 100vh;
+}
+
+div.screen2 {
+    width: 100vw;
+    height: 100vh;
+}
+
+div.screen3 {
+    width: 100vw;
+    height: 100vh;
+}
+
+div.screen4 {
+    width: 100vw;
+    height: 100vh;
+}
+
+div.screen5 {
+    width: 100vw;
+    height: 100vh;
+}
+
+div.screen6 {
+    width: 100vw;
+    height: 100vh;
+}
+div.screen7 {
+    width: 100vw;
+    height: 100vh;
+}
+div.screen8 {
+    width: 100vw;
+    height: 100vh;
+}
