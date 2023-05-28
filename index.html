@@ -19,16 +19,16 @@ Entrega: P2-Grupo; Anaí Araya, Isidora Gómez, Teresita Gutiérrez, Sofía Rizz
         <div class="pantalla">
 
             <div class="screen" >
-                <img src="Screenshot0_web.jpeg" id="botonplay"> 
+                <img src="Screenshot0_web.jpeg" class="dibujo" id="botonplay"> 
                 <audio id="cancioncita">
                     <source src="cancion.mpeg" type="audio/mpeg">
                   </audio>
             </div>
             <div class="screen" id="ancla1">
-                <img src="Screenshot1_web.png">  
+                <img src="Screenshot1_web.png" class="dibujo">  
             </div>
             <div class="screen"id="ancla2">
-                <img src="Screenshot2_web.png">
+                <img src="Screenshot2_web.png"class="dibujo">
             </div>
             <div class="screen">
                 <img src="Screenshot3_web.png">
@@ -74,6 +74,9 @@ Entrega: P2-Grupo; Anaí Araya, Isidora Gómez, Teresita Gutiérrez, Sofía Rizz
             }, 7000);
         });
 
+        window.onbeforeunload = function () {
+            window.scrollTo(0, 0);
+            }
         </script>
 
     </body>

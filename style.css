@@ -4,13 +4,15 @@ Ayudante: Paula Santa María y Pía
 Entrega: P2-Grupo; Anaí Araya,Isidora Gómez, Tere Gutierrez, Sofía Rizzoli, Fernanda Villarroel*/
 
 *{
-    cursor: hand;
+    cursor: url(cursor.png), auto;
+    overflow-y: hidden;
 }
 
 div.pantalla {
     text-align: center;
     padding: 20px;
     margin-top: 100px;
+    overflow-x: hidden;
 }
 
 div.screen {
