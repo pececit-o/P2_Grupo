@@ -47,6 +47,16 @@ div.screen#ancla3 {
   
 }
 
+div#ancla3 p{
+  font-family: 'MiFuenteLocal', Arial, sans-serif;
+  font-size: 50px;
+  margin: 0px;
+  position: absolute;
+  right: 100px;
+  float: right;
+  top:100px;
+}
+
   @font-face { 
    src: url(Fonts/LittlePaws.ttf);
    font-family: tipografia; }
