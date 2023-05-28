@@ -13,7 +13,7 @@ Entrega: P2-Grupo; Anaí Araya,Isidora Gómez, Tere Gutierrez, Sofía Rizzoli, F
 }
 
 .tituloarriba {
- font-size: 20px;
+ font-size: 40px;
  font-family: 'MiFuenteLocal';
  text-align: center;
  padding: 20px;
@@ -21,6 +21,14 @@ Entrega: P2-Grupo; Anaí Araya,Isidora Gómez, Tere Gutierrez, Sofía Rizzoli, F
      
 }
 
+.tituloabajo {
+ font-size: 40px;
+ font-family: 'MiFuenteLocal';
+ text-align: center;
+ padding: 20px;
+ margin-top: 50px;
+     
+}
 div.pantalla {
     text-align: center;
     margin-top: 100px;
@@ -49,7 +57,7 @@ div.screen#ancla3 {
 
 div#ancla3 p{
   font-family: 'MiFuenteLocal', Arial, sans-serif;
-  font-size: 50px;
+  font-size: 40px;
   margin: 0px;
   position: absolute;
   right: 100px;
