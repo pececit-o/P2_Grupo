@@ -5,7 +5,7 @@ Entrega: P2-Grupo; Anaí Araya,Isidora Gómez, Tere Gutierrez, Sofía Rizzoli, F
 
 *{
     cursor: url(cursor.png), auto;
-    overflow-y: hidden;
+   /*  overflow-y: hidden;  */
 }
 
 div.pantalla {
