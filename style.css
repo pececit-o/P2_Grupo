@@ -12,7 +12,7 @@ Entrega: P2-Grupo; Anaí Araya,Isidora Gómez, Tere Gutierrez, Sofía Rizzoli, F
    /* overflow-y: hidden;  */
 }
 
-p {
+.tituloarriba {
   font-family: 'MiFuenteLocal';
   font-size: 400px;
   margin: center; 
