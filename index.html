@@ -58,9 +58,17 @@ Entrega: P2-Grupo; Anaí Araya, Isidora Gómez, Teresita Gutiérrez, Sofía Rizz
                 </div>
             </div>
         </div>
-        
-            <div class="screen">
-                <img src="Screenshot4_web.png">
+
+<div class="grid-container">
+            <div class="grid">
+                <div class="screen" id="ancla4">
+                    <img src="Screenshot4_web.png">
+                    <p>♫ Y un montón de basura <br> 
+                        dan en la televisión ♫</p>
+                    </div>
+            </div>
+        </div>
+
             </div>
             <div class="screen">
                 <img src="Screenshot5_web.png">
@@ -110,6 +118,10 @@ Entrega: P2-Grupo; Anaí Araya, Isidora Gómez, Teresita Gutiérrez, Sofía Rizz
                 var divInferior = document.getElementById("ancla3");
                 divInferior.scrollIntoView({ behavior: 'smooth' });
             }, 13000);
+            setTimeout(function() {
+                var divInferior = document.getElementById("ancla4");
+                divInferior.scrollIntoView({ behavior: 'instant' });
+            }, 16000);
         });
 
         window.onbeforeunload = function () {
