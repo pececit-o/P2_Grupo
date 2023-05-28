@@ -7,29 +7,29 @@ Entrega: P2-Grupo; Anaí Araya,Isidora Gómez, Tere Gutierrez, Sofía Rizzoli, F
   src: url('Pencil-Regular.ttf') format('truetype');
 }
 
-*{
-    cursor: url(cursor.png), auto;
-   /* overflow-y: hidden;  */
+body{
+overflow-y: hidden; 
 }
 
 .tituloarriba {
- font-size: 40px;
+ font-size: 60px;
  font-family: 'MiFuenteLocal';
  text-align: center;
- padding: 20px;
- margin-top: 50px;
+ padding: 300px;
+ margin-top: 60px;
+ margin-bottom: 100px;
  float: none;
      
 }
 
 .tituloabajo {
- font-size: 40px;
+ font-size: 60px;
  font-family: 'MiFuenteLocal';
  text-align: center;
  padding: 20px;
- margin-top: -50px;
+ margin-top: -200px;
  float: none;
-     
+ margin-right: -17px;
 }
 
 #botonplay {
@@ -55,20 +55,36 @@ div.screen {
     height: 100vh; 
 }
 
+.grid-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+
 .grid {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh; /* Ajusta la altura según tus necesidades */
+  height: 100vh;
+  position: relative;
 }
 
 div.screen#ancla3 {
   display: grid;
-  grid-template-columns: auto;
+  grid-template-columns: auto auto;
   grid-gap: 0px;
-  position: relative;
-  left: 40px;
-  
+
+}
+
+.screen#ancla3 img {
+  margin: 0px;
+  position: absolute;
+  top: 40px;
+  left:350px;
+  padding: 0%;
 }
 
 div#ancla3 p{
@@ -76,9 +92,21 @@ div#ancla3 p{
   font-size: 40px;
   margin: 0px;
   position: absolute;
-  right: 160px;
-  float: right;
-  top: 100px;
+  top: 150px;
+  left:800px;
+  padding: 0%;
+
+}
+
+div#ancla2 p{
+  font-size: 60px;
+  font-family: 'MiFuenteLocal';
+  text-align: center;
+  padding: 20px;
+  margin-top: -100px;
+  float: none;
+  margin-right: -17px;
+
 }
 
   @font-face { 
@@ -94,10 +122,11 @@ div#ancla3 p{
    font-size: 250px;
    animation: blinker 1.0s linear infinite;
    color: #ff6a00;
-    
-    }
+}
+
    @keyframes blinker {
    70% {
    opacity: 0;
    }
+}
      

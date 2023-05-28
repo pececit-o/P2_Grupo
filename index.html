@@ -21,13 +21,13 @@ Entrega: P2-Grupo; Anaí Araya, Isidora Gómez, Teresita Gutiérrez, Sofía Rizz
     <body>
      
      <section>
-            <p class="tituloarriba"> Mario Hugo salió a trabajar </p>
+            <h1 class="tituloarriba"> Mario Hugo salió a trabajar </h1>
      <section>
 
         
         <div class="pantalla">
              
-            <div class="screen" >
+            <div class="screen" id="inicio" >
                 <img src="Screenshot0_web.jpeg" class="dibujo" id="botonplay"> 
                 <audio id="cancioncita">
                     <source src="cancion.mpeg" type="audio/mpeg">
@@ -45,15 +45,20 @@ Entrega: P2-Grupo; Anaí Araya, Isidora Gómez, Teresita Gutiérrez, Sofía Rizz
            
             <div class="screen"id="ancla2">
                 <img src="Screenshot2_web.png"class="dibujo">
+                <p>♫ Nuestro amo ya se fue a su trabajo <br> 
+                    la casa esta vacía, ahora nosotros mandamos ♫</p>
             </div>
 
+<div class="grid-container">
             <div class="grid">
                 <div class="screen"id=ancla3>
                     <img src="Screenshot3_web.png">
-            <p>♫ Hay montones de comida <br> 
-               en el refrigerador ♫</p>
+                <p>♫ Hay montañas de comida <br> 
+                    en el refrigerador ♫</p>
                 </div>
             </div>
+        </div>
+        
             <div class="screen">
                 <img src="Screenshot4_web.png">
             </div>
@@ -69,9 +74,17 @@ Entrega: P2-Grupo; Anaí Araya, Isidora Gómez, Teresita Gutiérrez, Sofía Rizz
             <div class="screen">
                 <img src="Screenshot8_web.png">
             </div>
+            <div><h1 class="blink">DOGGY STYLE!</h1></div>
         </div>
     
         <script>
+
+            document.addEventListener("DOMContentLoaded", function() {
+            setTimeout(function() {
+                var divInferior = document.getElementById("inicio");
+                divInferior.scrollIntoView({ behavior: 'smooth' });
+            }, 3000); // Tiempo en milisegundos (en este caso, 3 segundos)
+            });
             
             var audio = document.getElementById("cancioncita");
             var playButton = document.getElementById("botonplay");
@@ -92,7 +105,7 @@ Entrega: P2-Grupo; Anaí Araya, Isidora Gómez, Teresita Gutiérrez, Sofía Rizz
                 setTimeout(function() {
                 var divInferior = document.getElementById("ancla2");
                 divInferior.scrollIntoView({ behavior: 'instant' });
-            }, 7000);
+            }, 7650);
             setTimeout(function() {
                 var divInferior = document.getElementById("ancla3");
                 divInferior.scrollIntoView({ behavior: 'smooth' });
@@ -102,9 +115,7 @@ Entrega: P2-Grupo; Anaí Araya, Isidora Gómez, Teresita Gutiérrez, Sofía Rizz
         window.onbeforeunload = function () {
             window.scrollTo(0, 0);
             }
-        </script>
-        
-        <h1 class="blink">DOGGY STYLE!</h1> 
+        </script> 
 
 
     </body>
