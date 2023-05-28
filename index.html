@@ -30,7 +30,7 @@ Entrega: P2-Grupo; Anaí Araya, Isidora Gómez, Teresita Gutiérrez, Sofía Rizz
             <div class="screen"id="ancla2">
                 <img src="Screenshot2_web.png"class="dibujo">
             </div>
-            <div class="screen">
+            <div class="screen"id=ancla3>
                 <img src="Screenshot3_web.png">
             </div>
             <div class="screen">
@@ -70,8 +70,12 @@ Entrega: P2-Grupo; Anaí Araya, Isidora Gómez, Teresita Gutiérrez, Sofía Rizz
             }, 3000);
                 setTimeout(function() {
                 var divInferior = document.getElementById("ancla2");
-                divInferior.scrollIntoView({ behavior: 'smooth' });
+                divInferior.scrollIntoView({ behavior: 'instant' });
             }, 7000);
+            setTimeout(function() {
+                var divInferior = document.getElementById("ancla3");
+                divInferior.scrollIntoView({ behavior: 'smooth' });
+            }, 13000);
         });
 
         window.onbeforeunload = function () {
