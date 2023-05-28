@@ -53,7 +53,7 @@ div#ancla3 p{
    font-family: tipografia; }
 
 
-#blink {
+ .blink {
    text-align: center;
    padding: 20px;
    margin-top: 100px;
