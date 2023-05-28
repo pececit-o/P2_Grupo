@@ -4,8 +4,6 @@ Profesor: Ricardo Vega
 Ayudante: Paula Santa María y Pía
 Entrega: P2-Grupo; Anaí Araya, Isidora Gómez, Teresita Gutiérrez, Sofía Rizzoli, Fernanda Villarroel-->
 
-
-
 <!DOCTYPE html>
 <html>
     <head>
@@ -30,7 +28,7 @@ Entrega: P2-Grupo; Anaí Araya, Isidora Gómez, Teresita Gutiérrez, Sofía Rizz
             <div class="screen" id="inicio" >
                 <img src="Screenshot0_web.jpeg" class="dibujo" id="botonplay"> 
                 <audio id="cancioncita">
-                    <source src="cancion.mpeg" type="audio/mpeg">
+                    <source src="cancion.mp3" type="audio/mpeg">
                   </audio>
             </div>
             
@@ -40,13 +38,13 @@ Entrega: P2-Grupo; Anaí Araya, Isidora Gómez, Teresita Gutiérrez, Sofía Rizz
             
             <div class="screen" id="ancla1">
                 <img src="Screenshot1_web.png" class="dibujo">  
+                <p>♫ Nuestro amo ya se fue a su trabajo ♫</p>
             </div>
             
            
             <div class="screen"id="ancla2">
                 <img src="Screenshot2_web.png"class="dibujo">
-                <p>♫ Nuestro amo ya se fue a su trabajo <br> 
-                    la casa esta vacía, ahora nosotros mandamos ♫</p>
+                <p> ♫ la casa está vacía, ahora nosotros mandamos ♫</p>
             </div>
 
 <div class="grid-container">
@@ -70,19 +68,24 @@ Entrega: P2-Grupo; Anaí Araya, Isidora Gómez, Teresita Gutiérrez, Sofía Rizz
         </div>
 
             </div>
-            <div class="screen">
+            <div class="screen" id="ancla5">
                 <img src="Screenshot5_web.png">
             </div>
-            <div class="screen">
+            <div class="screen" id="ancla6">
                 <img src="Screenshot6_web.png">
             </div>
-            <div class="screen">
+            <div class="screen" id="ancla7">
                 <img src="Screenshot7_web.png">
             </div>
-            <div class="screen">
+            <div class="screen" id="ancla8">
                 <img src="Screenshot8_web.png">
             </div>
-            <div><h1 class="blink">DOGGY STYLE!</h1></div>
+            <div class="screen" id="ancla9">
+                <img src="Screenshot9_web.png">
+            </div>
+            <div class="screen" id="ancla10">
+                <h1 class="blink">DOGGY STYLE!</h1>
+            </div>
         </div>
     
         <script>
@@ -109,11 +112,11 @@ Entrega: P2-Grupo; Anaí Araya, Isidora Gómez, Teresita Gutiérrez, Sofía Rizz
                 setTimeout(function() {
                 var divInferior = document.getElementById("ancla1");
                 divInferior.scrollIntoView({ behavior: 'smooth' });
-            }, 3000);
+            }, 7000);
                 setTimeout(function() {
                 var divInferior = document.getElementById("ancla2");
                 divInferior.scrollIntoView({ behavior: 'instant' });
-            }, 7650);
+            }, 10000);
             setTimeout(function() {
                 var divInferior = document.getElementById("ancla3");
                 divInferior.scrollIntoView({ behavior: 'smooth' });
@@ -122,6 +125,30 @@ Entrega: P2-Grupo; Anaí Araya, Isidora Gómez, Teresita Gutiérrez, Sofía Rizz
                 var divInferior = document.getElementById("ancla4");
                 divInferior.scrollIntoView({ behavior: 'instant' });
             }, 16000);
+            setTimeout(function() {
+                var divInferior = document.getElementById("ancla5");
+                divInferior.scrollIntoView({ behavior: 'instant' });
+            }, 19000);
+            setTimeout(function() {
+                var divInferior = document.getElementById("ancla6");
+                divInferior.scrollIntoView({ behavior: 'instant' });
+            }, 22000);
+            setTimeout(function() {
+                var divInferior = document.getElementById("ancla7");
+                divInferior.scrollIntoView({ behavior: 'instant' });
+            }, 25000);
+            setTimeout(function() {
+                var divInferior = document.getElementById("ancla8");
+                divInferior.scrollIntoView({ behavior: 'instant' });
+            }, 30000);
+            setTimeout(function() {
+                var divInferior = document.getElementById("ancla9");
+                divInferior.scrollIntoView({ behavior: 'instant' });
+            }, 36800);
+            setTimeout(function() {
+                var divInferior = document.getElementById("ancla10");
+                divInferior.scrollIntoView({ behavior: 'instant' });
+            }, 39900);
         });
 
         window.onbeforeunload = function () {
