@@ -18,6 +18,7 @@ Entrega: P2-Grupo; Anaí Araya,Isidora Gómez, Tere Gutierrez, Sofía Rizzoli, F
  text-align: center;
  padding: 20px;
  margin-top: 50px;
+ float: none;
      
 }
 
@@ -27,6 +28,7 @@ Entrega: P2-Grupo; Anaí Araya,Isidora Gómez, Tere Gutierrez, Sofía Rizzoli, F
  text-align: center;
  padding: 20px;
  margin-top: -50px;
+ float: none;
      
 }
 
