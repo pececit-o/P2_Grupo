@@ -48,16 +48,16 @@ div#ancla3 p{
   top:100px;
 }
 
- @font-face { 
+  @font-face { 
    src: url(Fonts/LittlePaws.ttf);
    font-family: tipografia; }
 
 
- .blink {
+   .blink {
    text-align: center;
    padding: 20px;
    margin-top: 100px;
-   font-family: tipografia;
+   font-family: 'MiFuenteLocal';
    font-size: 250px;
    animation: blinker 1.0s linear infinite;
    color: #ff6a00;
@@ -66,5 +66,7 @@ div#ancla3 p{
    @keyframes blinker {
    70% {
    opacity: 0;
-       }
+   }
+     
+     
 }
