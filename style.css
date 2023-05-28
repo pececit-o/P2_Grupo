@@ -67,6 +67,7 @@ div.screen#ancla3 {
   grid-template-columns: auto auto;
   grid-gap: 0px;
   position: relative;
+  left: 40px;
   
 }
 
