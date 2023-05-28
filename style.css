@@ -68,5 +68,8 @@ div#ancla3 p{
    opacity: 0;
    }
      
+  p {
+  font-family: 'MiFuenteLocal';
+  font-size: 300px;  
      
 }
