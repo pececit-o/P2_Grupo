@@ -2,6 +2,10 @@
 Profesor: Ricardo Vega
 Ayudante: Paula Santa María y Pía
 Entrega: P2-Grupo; Anaí Araya,Isidora Gómez, Tere Gutierrez, Sofía Rizzoli, Fernanda Villarroel*/
+@font-face {
+  font-family: 'MiFuenteLocal';
+  src: url('Pencil-Regular.ttf') format('truetype');
+}
 
 *{
     cursor: url(cursor.png), auto;
@@ -19,3 +23,27 @@ div.screen {
     height: 100vh; 
 }
 
+.grid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Ajusta la altura según tus necesidades */
+}
+
+div.screen#ancla3 {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 0px;
+  position: relative;
+  
+}
+
+div#ancla3 p{
+  font-family: 'MiFuenteLocal', Arial, sans-serif;
+  font-size: 60px;
+  margin: 0px;
+  position: absolute;
+  left:0px;
+  right: 100px;
+  top:100px;
+}
