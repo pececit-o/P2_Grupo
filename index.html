@@ -31,7 +31,8 @@ separadas.
             <h1 class="tituloarriba"> Mario Hugo salió a trabajar... </h1>
      <section>
 
-        
+       <!--con los div separamos las "diapositivas" con sus respectivos dibujos y letras de la canción, esto nos sirvio para
+        poder agregarles un estilo en css y animación en javascript--> 
         <div class="pantalla">
              
             <div class="screen" id="inicio" >
@@ -172,7 +173,7 @@ separadas.
                 setTimeout(function() {
                 var divInferior = document.getElementById("ancla1");
                 divInferior.scrollIntoView({ behavior: 'smooth' });
-            }, 7000); // smooth es para que la transición 
+            }, 7000); // smooth es para que la transición sea smooth
                 setTimeout(function() {
                 var divInferior = document.getElementById("ancla2");
                 divInferior.scrollIntoView({ behavior: 'instant' });
@@ -232,7 +233,7 @@ separadas.
             }
 
 
-        // Sacamos la animación de https://www.youtube.com/watch?v=-LCv2gen93A
+        // Sacamos el código para esta animación de https://www.youtube.com/watch?v=-LCv2gen93A
         consoleText(['Proyecto ll Web.', 'Anai Araya', 'Isidora Gomez', 'Teresita Gutierrez', 'Sofia Rizzoli', 'Fernanda Villarroel' ], 'text',['blue','hotpink','purple','green','red','orange']);
 
         function consoleText(words, id, colors) {
