@@ -168,6 +168,60 @@ div.screen#ancla5 {
 
 }
 
+div#ancla5 p{
+  font-family: 'MiFuenteLocal', Arial, sans-serif;
+  font-size: 40px;
+  margin: 0px;
+  position: absolute;
+  top: 150px;
+  left:540px;
+  padding: 0%;
+
+}
+
+.screen#ancla5 img {
+  margin: 0px;
+  position: absolute;
+  top: 100px;
+  left:200px;
+  padding: 0%;
+}
+
+div.screen#ancla5b {
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-template-columns: auto auto;
+  grid-gap: 0px;
+
+}
+
+div#ancla5b p{
+  font-family: 'MiFuenteLocal', Arial, sans-serif;
+  font-size: 40px;
+  margin: 0px;
+  position: absolute;
+  top: 160px;
+  left:860px;
+  padding: 0%;
+
+}
+
+.screen#ancla5b .perros {
+  margin: 0px;
+  position: absolute;
+  top: 100px;
+  left:200px;
+  padding: 0%;
+}
+
+.screen#ancla5b .gato {
+  margin: 0px;
+  position: absolute;
+  top: 150px;
+  left:500px;
+  padding: 0%;
+}
+
 /*aqui terminan las imagenes con texto*/
 
 
@@ -209,7 +263,6 @@ div.screen#ancla5 {
  .gato {
   animation: horizontal-shaking  0.2s infinite;
   animation-fill-mode: forwards;
-  margin-top: -1200px;
   
 }
 .perro1 {
