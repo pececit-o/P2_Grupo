@@ -261,7 +261,7 @@ div#ancla6b p{
   font-size: 40px;
   margin: 0px;
   position: absolute;
-  top: 160px;
+  top: 300px;
   left:560px;
   padding: 0%;
 
@@ -270,7 +270,7 @@ div#ancla6b p{
 .screen#ancla6b img {
   margin: 0px;
   position: absolute;
-  top:-50px;
+  top:100px;
   left:230px;
   padding: 0%;
 }
@@ -299,6 +299,113 @@ div#ancla7 p{
   position: absolute;
   top:100px;
   left:500px;
+  padding: 0%;
+}
+
+div.screen#ancla7b {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 0px;
+
+}
+
+div#ancla7b p{
+  font-family: 'MiFuenteLocal', Arial, sans-serif;
+  font-size: 40px;
+  margin: 100px;
+  position: absolute;
+  top: 100px;
+  left:400px;
+  padding: 0%;
+
+}
+
+.screen#ancla7b img {
+  margin: 100px;
+  position: absolute;
+  top:100px;
+  left:140px;
+  padding: 0%;
+}
+
+div.screen#ancla8a {
+  display: grid;
+  grid-template-rows: auto auto auto auto;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 0px;
+
+}
+
+div#ancla8a h2{
+  font-family: 'MiFuenteLocal', Arial, sans-serif;
+  font-size: 40px;
+  margin: 100px;
+  position: absolute;
+  top: -10px;
+  left:430px;
+  padding: 0%;
+
+}
+
+.screen#ancla8a img {
+  margin: 100px;
+  position: absolute;
+  top:20px;
+  left:230px;
+  padding: 0%;
+  height: 60%;
+  width: auto;
+}
+
+
+div.screen#ancla8 {
+  display: grid;
+  grid-template-rows: auto auto auto auto;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 0px;
+
+}
+
+div#ancla8 h3{
+  font-family: 'MiFuenteLocal', Arial, sans-serif;
+  font-size: 40px;
+  margin: 100px;
+  position: absolute;
+  top: 500px;
+  left:480px;
+  padding: 0%;
+
+}
+
+.screen#ancla8 .perro1 {
+  margin: 100px;
+  position: absolute;
+  top:20px;
+  left:140px;
+  padding: 0%;
+}
+
+.screen#ancla8 .perro2 {
+  margin: 100px;
+  position: absolute;
+  top:20px;
+  left:140px;
+  padding: 0%;
+}
+
+.screen#ancla8 .corona1 {
+  margin: 100px;
+  position: absolute;
+  top:20px;
+  left:140px;
+  padding: 0%;
+}
+
+.screen#ancla8 .corona2 {
+  margin: 100px;
+  position: absolute;
+  top:20px;
+  left:140px;
   padding: 0%;
 }
 
