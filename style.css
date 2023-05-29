@@ -502,6 +502,8 @@ div#ancla10 h1{
   top:30px;
   left:140px;
   padding: 0%;
+  animation: tilt-shaking 1s infinite;
+  animation-fill-mode: forwards;
 }
 
 .screen#ancla10 .estilo2 {
@@ -510,6 +512,8 @@ div#ancla10 h1{
   top:30px;
   left:140px;
   padding: 0%;
+  animation: tilt-shaking 1s infinite;
+  animation-fill-mode: forwards;
 }
 
 .screen#ancla10 .estilo3{
@@ -518,6 +522,8 @@ div#ancla10 h1{
   top:30px;
   left:140px;
   padding: 0%;
+  animation: tilt-shaking 1s infinite;
+  animation-fill-mode: forwards;
 }
 
 
