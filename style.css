@@ -43,6 +43,7 @@ decidimos ponerle animación intermitente para que se entienda que el usuario de
 @keyframes blinker {
   70% {
   opacity: 0;
+  }
 }
 
 #botonplay {
