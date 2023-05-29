@@ -146,6 +146,17 @@ div#ancla4 p{
 
 }
 
+.screen#ancla5 img{
+  font-family: 'MiFuenteLocal', Arial, sans-serif;
+  font-size: 40px;
+  margin: 0px;
+  position: absolute;
+  top: 420px;
+  left:750px;
+  padding: 0%;
+
+}
+
 div.screen#ancla4 {
   display: grid;
   grid-template-columns: auto auto;
@@ -153,7 +164,8 @@ div.screen#ancla4 {
 
 }
 
-.screen#ancla4 img {
+
+ .screen#ancla4 img {
   margin: 0px;
   position: absolute;
   top: 80px;
