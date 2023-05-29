@@ -41,6 +41,7 @@ body {
 
   }
   
-  .capa3 img{
+  .capa2 img{
     position: sticky;
+    top: 100px
   }
