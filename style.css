@@ -196,9 +196,16 @@ div.screen#ancla4 {
   100% { transform: rotate(0deg); }
 }
 
-.gato {
-  align-content: center;  
+ .gato {
   animation: horizontal-shaking  0.2s infinite;
+  animation-fill-mode: forwards;
+}
+.perro1 {
+  align-content: center;  
+}
+.perro2 {
+  margin-top: 1200px;
+  
 }
   @keyframes horizontal-shaking {
   0% { transform: translateX(0) }
