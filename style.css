@@ -199,6 +199,8 @@ div.screen#ancla4 {
  .gato {
   animation: horizontal-shaking  0.2s infinite;
   animation-fill-mode: forwards;
+  margin-top: -1200px;
+  
 }
 .perro1 {
   align-content: center;  
