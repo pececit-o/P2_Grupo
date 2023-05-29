@@ -15,7 +15,7 @@ body {
     background-size: cover;
   }
   
-  .capa2 {
+  .capa1 {
     position: absolute;
     top: 100vh; /* Inicia fuera de la pantalla */
     left: 0;
@@ -25,10 +25,11 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
+    position: sticky;
+    top: 100px
   }
   
-  .capa3 {
+  .capa2 {
     position: absolute;
     top: 100vh; /* Inicia fuera de la pantalla */
     left: 0;
@@ -38,10 +39,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
-  }
-  
-  .capa2 img{
     position: sticky;
     top: 100px
   }
+  
