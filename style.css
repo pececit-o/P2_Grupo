@@ -195,5 +195,24 @@ div.screen#ancla4 {
   75% { transform: rotate(-5deg); }
   100% { transform: rotate(0deg); }
 }
+
+.gato {
+  align-content: center;
+  float: none;
+  margin-right: 400px;
+  margin-top: -440px;
+  width: 40px;
+  height: 40px;  
+  animation: horizontal-shaking  0.2s infinite;
+  
+}
+  @keyframes horizontal-shaking {
+  0% { transform: translateX(0) }
+  25% { transform: translateX(5px) }
+  50% { transform: translateX(-5px) }
+  75% { transform: translateX(5px) }
+  100% { transform: translateX(0) }
+}
+
   
      
