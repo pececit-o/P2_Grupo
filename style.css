@@ -173,10 +173,10 @@ div.screen#ancla4 {
    margin-top: 100px;
    font-family: 'tipografia';
    font-size: 250px;
-   animation-name: cambiacolor, tilt-shaking;
-   animation-duration: 1s;
+   animation: cambiacolor 6s infinite, tilt-shaking 2s infinite;
    animation-fill-mode: forwards;
 }
+
   /* sacado de https://unused-css.com/blog/css-shake-animation/ y  modificado con más colores y otra intermitencia*/
   @keyframes cambiacolor {
   0%   {color: red;}
