@@ -161,6 +161,16 @@ div.screen#ancla4 {
   padding: 0%;
 }
 
+div.screen#ancla5 {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 0px;
+
+}
+
+/*aqui terminan las imagenes con texto*/
+
+
 /* fuente para doggy style */
   @font-face { 
    src: url(LittlePaws.ttf);
@@ -222,5 +232,29 @@ div.screen#ancla4 {
   100% { transform: translateX(0) }
 }
 
-  
+
+.hidden {
+  opacity:0;
+}
+.console-container {
+ 
+  font-family:'MiFuenteLocal';
+  font-size:4em;
+  text-align:center;
+  height:600px;
+  width:600px;
+  display:block;
+  position:relative;
+  color:white;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  margin:auto;
+}
+.console-underscore {
+  display:inline-block;
+  top:-0.14em;
+  left:10px;
+}
      

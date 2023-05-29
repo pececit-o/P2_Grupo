@@ -83,15 +83,9 @@ separadas.
             </div>
                 
             <div class="screen" id="ancla5b">
-                    <div class="perro1">
                 <img src="perro_asustando1.png">
-                     </div>  
-                    <div class="perro2">
                 <img src="perro_asustando2.png">
-                    </div>
-                    <div class="gato">
                 <img src="asustado_gato.png">
-                     </div>
                 <p>♫ Asustamos al gato ♫</p>
             </div>
                 
@@ -125,7 +119,15 @@ separadas.
             <div class="screen" id="ancla10">
                 <h1 class="blink">DOGGY STYLE!</h1>
             </div>
+
+            <div class='console-container' id="final">
+                <span id='text'></span>
+                <div class='console-underscore' id='console'>&#95;
+                </div>
+            </div>
+
         </div>
+
     
         <script>
 
@@ -200,11 +202,68 @@ separadas.
                 var divInferior = document.getElementById("ancla10");
                 divInferior.scrollIntoView({ behavior: 'instant' });
             }, 39900);
+            setTimeout(function() {
+                var divInferior = document.getElementById("final");
+                divInferior.scrollIntoView({ behavior: 'instant' });
+            }, 45000);
         });
 
-        window.onbeforeunload = function () {
+        window.onbeforeunload = function () { //esto es para que al refrescarla vuelva al inicio
             window.scrollTo(0, 0);
             }
+
+
+        // citar lmao 
+        consoleText(['Proyecto ll Web.', 'Anai Araya', 'Isidora Gomez', 'Teresita Gutierrez', 'Sofia Rizzoli', 'Fernanda Villarroel' ], 'text',['blue','hotpink','purple','green','red','orange']);
+
+        function consoleText(words, id, colors) {
+        if (colors === undefined) colors = ['#fff'];
+        var visible = true;
+        var con = document.getElementById('console');
+        var letterCount = 1;
+        var x = 1;
+        var waiting = false;
+        var target = document.getElementById(id)
+        target.setAttribute('style', 'color:' + colors[0])
+        window.setInterval(function() {
+
+            if (letterCount === 0 && waiting === false) {
+            waiting = true;
+            target.innerHTML = words[0].substring(0, letterCount)
+            window.setTimeout(function() {
+                var usedColor = colors.shift();
+                colors.push(usedColor);
+                var usedWord = words.shift();
+                words.push(usedWord);
+                x = 1;
+                target.setAttribute('style', 'color:' + colors[0])
+                letterCount += x;
+                waiting = false;
+            }, 1000)
+            } else if (letterCount === words[0].length + 1 && waiting === false) {
+            waiting = true;
+            window.setTimeout(function() {
+                x = -1;
+                letterCount += x;
+                waiting = false;
+            }, 1000)
+            } else if (waiting === false) {
+            target.innerHTML = words[0].substring(0, letterCount)
+            letterCount += x;
+            }
+        }, 120)
+        window.setInterval(function() {
+            if (visible === true) {
+            con.className = 'console-underscore hidden'
+            visible = false;
+
+            } else {
+            con.className = 'console-underscore'
+
+            visible = true;
+            }
+        }, 400)
+        }
         </script> 
 
 
