@@ -173,7 +173,7 @@ div.screen#ancla4 {
    margin-top: 100px;
    font-family: 'tipografia';
    font-size: 250px;
-   animation: cambiacolor 6s infinite, tilt-shaking 2s infinite;
+   animation: cambiacolor 1s infinite, tilt-shaking 1s infinite;
    animation-fill-mode: forwards;
 }
 
