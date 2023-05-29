@@ -1,7 +1,10 @@
 /*Curso: Programación creativa para Diseño
 Profesor: Ricardo Vega
 Ayudante: Paula Santa María y Pía
-Entrega: P2-Grupo; Anaí Araya,Isidora Gómez, Tere Gutierrez, Sofía Rizzoli, Fernanda Villarroel*/
+Entrega: P2-Grupo; Anaí Araya, Isidora Gómez, Tere Gutierrez, Sofía Rizzoli, Fernanda Villarroel*/
+
+
+/* fuente para letra de la canción */
 @font-face {
   font-family: 'MiFuenteLocal';
   src: url('Pencil-Regular.ttf') format('truetype');
@@ -23,6 +26,9 @@ overflow-x: hidden;
      
 }
 
+/* modificamos el que estaba en https://www.w3schools.com/css/tryit.asp?filename=trycss3_animation2 
+decidimos ponerle animación intermitente para que se entienda que el usuario debe interactuar para que empiece la canción*/
+
 .tituloabajo {
  font-size: 60px;
  font-family: 'MiFuenteLocal';
@@ -33,6 +39,11 @@ overflow-x: hidden;
  float: none;
  margin-right: -17px;
 }
+/* se utiliza para regular la intermitencia */
+@keyframes blinker {
+  70% {
+  opacity: 0;
+}
 
 #botonplay {
   padding: 50px;
@@ -40,6 +51,7 @@ overflow-x: hidden;
   margin: 0 auto;
 }
 
+ 
 #botonplay:hover {
   -ms-transform: scale(1.5); /* IE 9 */
   -webkit-transform: scale(1.5); /* Safari 3-8 */
@@ -148,25 +160,38 @@ div.screen#ancla4 {
   padding: 0%;
 }
 
-
+/* fuente para doggy style */
   @font-face { 
    src: url(LittlePaws.ttf);
    font-family: 'tipografia'; }
 
-
+/* texto doggy style, utilizamos dos animaciones, una para que cambie de color y la otra para que se rote levemente*/
    .blink {
    text-align: center;
    padding: 20px;
    margin-top: 100px;
    font-family: 'tipografia';
    font-size: 250px;
-   animation: blinker 1.0s linear infinite;
+   animation-name: cambiacolor, tilt-shaking;
    color: #ff6a00;
 }
-
-   @keyframes blinker {
-   70% {
-   opacity: 0;
-   }
+  /* sacado de https://unused-css.com/blog/css-shake-animation/ y  modificado con más colores y otra intermitencia*/
+  @keyframes cambiacolor {
+  0%   {color: red;}
+  20%  {color: yellow;}
+  40%  {color: blue;}
+  60% {color: green;}
+  80% {color: hotpink;}
+  90% {color: orange;}
+  100% {color: purple;}
 }
+/* sacado de https://unused-css.com/blog/css-shake-animation/*/
+  @keyframes tilt-shaking {
+  0% { transform: rotate(0deg); }
+  25% { transform: rotate(5deg); }
+  50% { transform: rotate(0eg); }
+  75% { transform: rotate(-5deg); }
+  100% { transform: rotate(0deg); }
+}
+  
      
