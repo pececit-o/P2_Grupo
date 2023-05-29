@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .parallax {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-image: url("1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .capa2 {
+    position: absolute;
+    top: 100vh; /* Inicia fuera de la pantalla */
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-image: url("2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+  
+  .capa3 {
+    position: absolute;
+    top: 100vh; /* Inicia fuera de la pantalla */
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-image: url("3.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+  
+  .capa3 img{
+    position: sticky;
+  }
