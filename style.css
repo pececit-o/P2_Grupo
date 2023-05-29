@@ -212,18 +212,6 @@ div.screen#ancla5 {
   margin-top: -1200px;
   
 }
-.perro1 {
-  align-content: center; 
-  text-align: center;
-  padding: 20px;
-  margin-top: -1000px;
-  float: none;
-  margin-right: -17px;
-}
-.perro2 {
-  margin-top: 1200px;
-  
-}
   @keyframes horizontal-shaking {
   0% { transform: translateX(0) }
   25% { transform: translateX(5px) }
