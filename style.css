@@ -29,6 +29,7 @@ overflow-x: hidden;
  text-align: center;
  padding: 20px;
  margin-top: -200px;
+ animation: blinker 1.0s linear infinite;
  float: none;
  margin-right: -17px;
 }
