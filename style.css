@@ -1,7 +1,7 @@
 /*Curso: Programación creativa para Diseño
 Profesor: Ricardo Vega
 Ayudante: Paula Santa María y Pía
-Entrega: P2-Grupo; Anaí Araya, Isidora Gómez, Tere Gutierrez, Sofía Rizzoli, Fernanda Villarroel*/
+Entrega: P2-Grupo; Anaí Araya, Isidora Gomez, Teresita Gutierrez, Sofía Rizzoli, Fernanda Villarroel*/
 
 
 /* fuente para letra de la canción */
@@ -146,6 +146,17 @@ div#ancla4 p{
 
 }
 
+.screen#ancla5 img{
+  font-family: 'MiFuenteLocal', Arial, sans-serif;
+  font-size: 40px;
+  margin: 0px;
+  position: absolute;
+  top: 420px;
+  left:750px;
+  padding: 0%;
+
+}
+
 div.screen#ancla4 {
   display: grid;
   grid-template-columns: auto auto;
@@ -153,7 +164,8 @@ div.screen#ancla4 {
 
 }
 
-.screen#ancla4 img {
+
+ .screen#ancla4 img {
   margin: 0px;
   position: absolute;
   top: 80px;
