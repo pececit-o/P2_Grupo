@@ -2,6 +2,9 @@
 Profesor: Ricardo Vega
 Ayudante: Paula Santa María y Pía
 Entrega: P2-Grupo; Anaí Araya,Isidora Gómez, Tere Gutierrez, Sofía Rizzoli, Fernanda Villarroel*/
+
+
+/* fuente para letra de la canción */
 @font-face {
   font-family: 'MiFuenteLocal';
   src: url('Pencil-Regular.ttf') format('truetype');
@@ -23,6 +26,9 @@ overflow-x: hidden;
      
 }
 
+/* modificamos el que estaba en https://www.w3schools.com/css/tryit.asp?filename=trycss3_animation2 
+decidimos ponerle animación intermitente para que se entienda que el usuario debe interactuar para que empieze la canción  */
+
 .tituloabajo {
  font-size: 60px;
  font-family: 'MiFuenteLocal';
@@ -33,6 +39,7 @@ overflow-x: hidden;
  float: none;
  margin-right: -17px;
 }
+/* se utiliza para regular la intermitencia */
 @keyframes blinker {
   70% {
   opacity: 0;
@@ -44,6 +51,7 @@ overflow-x: hidden;
   margin: 0 auto;
 }
 
+ 
 #botonplay:hover {
   -ms-transform: scale(1.5); /* IE 9 */
   -webkit-transform: scale(1.5); /* Safari 3-8 */
@@ -152,12 +160,12 @@ div.screen#ancla4 {
   padding: 0%;
 }
 
-
+/* fuente para doggy style */
   @font-face { 
    src: url(LittlePaws.ttf);
    font-family: 'tipografia'; }
 
-/* texto doggy styel, utilizamos dos animaciones, una para que cambie de color y la otra para que se rote levemente*/
+/* texto doggy style, utilizamos dos animaciones, una para que cambie de color y la otra para que se rote levemente*/
    .blink {
    text-align: center;
    padding: 20px;
@@ -167,7 +175,7 @@ div.screen#ancla4 {
    animation-name: cambiacolor, tilt-shaking;
    color: #ff6a00;
 }
-  /* sacado de https://unused-css.com/blog/css-shake-animation/*/
+  /* sacado de https://unused-css.com/blog/css-shake-animation/ y  modificado con más colores y otra intermitencia*/
   @keyframes cambiacolor {
   0%   {color: red;}
   20%  {color: yellow;}
