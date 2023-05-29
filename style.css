@@ -203,7 +203,12 @@ div.screen#ancla4 {
   
 }
 .perro1 {
-  align-content: center;  
+  align-content: center; 
+  text-align: center;
+  padding: 20px;
+  margin-top: -1000px;
+  float: none;
+  margin-right: -17px;
 }
 .perro2 {
   margin-top: 1200px;
