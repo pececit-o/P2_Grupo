@@ -409,6 +409,50 @@ div#ancla8 h3{
   padding: 0%;
 }
 
+
+div.screen#ancla9 {
+  display: grid;
+  grid-template-rows: auto auto auto auto;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 0px;
+
+}
+
+div#ancla8 p{
+  font-family: 'MiFuenteLocal', Arial, sans-serif;
+  font-size: 40px;
+  margin: 100px;
+  position: absolute;
+  top: 500px;
+  left:480px;
+  padding: 0%;
+
+}
+
+.screen#ancla8 .estilo1 {
+  margin: 100px;
+  position: absolute;
+  top:20px;
+  left:140px;
+  padding: 0%;
+}
+
+.screen#ancla8 .estilo2 {
+  margin: 100px;
+  position: absolute;
+  top:20px;
+  left:140px;
+  padding: 0%;
+}
+
+.screen#ancla8 .estilo3{
+  margin: 100px;
+  position: absolute;
+  top:20px;
+  left:140px;
+  padding: 0%;
+}
+
 /*aqui terminan las imagenes con texto*/
 
 
