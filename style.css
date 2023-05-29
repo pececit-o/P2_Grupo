@@ -11,7 +11,7 @@ Entrega: P2-Grupo; Anaí Araya, Isidora Gómez, Tere Gutierrez, Sofía Rizzoli, 
 }
 
 body{
-  /*overflow-y: hidden; */
+overflow-y: hidden; 
 overflow-x: hidden; 
 } 
 
@@ -449,7 +449,7 @@ div#ancla9 p{
 .screen#ancla9 .estilo1 {
   margin: 100px;
   position: absolute;
-  top:20px;
+  top:30px;
   left:140px;
   padding: 0%;
 }
@@ -457,7 +457,7 @@ div#ancla9 p{
 .screen#ancla9 .estilo2 {
   margin: 100px;
   position: absolute;
-  top:20px;
+  top:30px;
   left:140px;
   padding: 0%;
 }
@@ -465,7 +465,7 @@ div#ancla9 p{
 .screen#ancla9 .estilo3{
   margin: 100px;
   position: absolute;
-  top:20px;
+  top:30px;
   left:140px;
   padding: 0%;
 }
@@ -482,8 +482,16 @@ div#ancla10 p{
   font-size: 40px;
   margin: 100px;
   position: absolute;
-  top: 0px;
+  top: -90px;
   left:500px;
+  padding: 0%;
+
+}
+
+div#ancla10 h1{
+  margin: 0px;
+  position: absolute;
+  top: 10px;
   padding: 0%;
 
 }
@@ -491,7 +499,7 @@ div#ancla10 p{
 .screen#ancla10 .estilo1 {
   margin: 100px;
   position: absolute;
-  top:25px;
+  top:30px;
   left:140px;
   padding: 0%;
 }
@@ -499,7 +507,7 @@ div#ancla10 p{
 .screen#ancla10 .estilo2 {
   margin: 100px;
   position: absolute;
-  top:25px;
+  top:30px;
   left:140px;
   padding: 0%;
 }
@@ -507,7 +515,7 @@ div#ancla10 p{
 .screen#ancla10 .estilo3{
   margin: 100px;
   position: absolute;
-  top:25px;
+  top:30px;
   left:140px;
   padding: 0%;
 }
@@ -523,15 +531,15 @@ div#ancla10 p{
 
 /* texto doggy style, utilizamos dos animaciones, una para que cambie de color y la otra para que se rote levemente*/
    .blink {
-   position: absolute;
    text-align: center;
    left: 100px;
    padding: 0px;
-   top: 0px;
+   top: -100px;
    font-family: 'tipografia';
    font-size: 250px;
    animation: cambiacolor 1s infinite, tilt-shaking 1s infinite;
    animation-fill-mode: forwards;
+   transform: translateY(-100px);
 }
 
   /* sacado de https://unused-css.com/blog/css-shake-animation/ y  modificado con más colores y otra intermitencia*/
@@ -580,7 +588,7 @@ div#ancla10 p{
   display:block;
   position:relative;
   color:white;
-  top:0;
+  top:200;
   bottom:0;
   left:0;
   right:0;
