@@ -431,18 +431,18 @@ div.screen#ancla9 {
 
 }
 
-div#ancla8 p{
+div#ancla9 p{
   font-family: 'MiFuenteLocal', Arial, sans-serif;
   font-size: 40px;
   margin: 100px;
   position: absolute;
-  top: 500px;
-  left:480px;
+  top: 400px;
+  left:420px;
   padding: 0%;
 
 }
 
-.screen#ancla8 .estilo1 {
+.screen#ancla9 .estilo1 {
   margin: 100px;
   position: absolute;
   top:20px;
@@ -450,7 +450,7 @@ div#ancla8 p{
   padding: 0%;
 }
 
-.screen#ancla8 .estilo2 {
+.screen#ancla9 .estilo2 {
   margin: 100px;
   position: absolute;
   top:20px;
@@ -458,13 +458,56 @@ div#ancla8 p{
   padding: 0%;
 }
 
-.screen#ancla8 .estilo3{
+.screen#ancla9 .estilo3{
   margin: 100px;
   position: absolute;
   top:20px;
   left:140px;
   padding: 0%;
 }
+
+div.screen#ancla10 {
+  display: grid;
+  grid-template-rows: auto auto auto;
+  grid-gap: 0px;
+
+}
+
+div#ancla10 p{
+  font-family: 'MiFuenteLocal', Arial, sans-serif;
+  font-size: 40px;
+  margin: 100px;
+  position: absolute;
+  top: 0px;
+  left:500px;
+  padding: 0%;
+
+}
+
+.screen#ancla10 .estilo1 {
+  margin: 100px;
+  position: absolute;
+  top:25px;
+  left:140px;
+  padding: 0%;
+}
+
+.screen#ancla10 .estilo2 {
+  margin: 100px;
+  position: absolute;
+  top:25px;
+  left:140px;
+  padding: 0%;
+}
+
+.screen#ancla10 .estilo3{
+  margin: 100px;
+  position: absolute;
+  top:25px;
+  left:140px;
+  padding: 0%;
+}
+
 
 /*aqui terminan las imagenes con texto*/
 
@@ -476,9 +519,11 @@ div#ancla8 p{
 
 /* texto doggy style, utilizamos dos animaciones, una para que cambie de color y la otra para que se rote levemente*/
    .blink {
+   position: absolute;
    text-align: center;
-   padding: 20px;
-   margin-top: 100px;
+   left: 100px;
+   padding: 0px;
+   top: 0px;
    font-family: 'tipografia';
    font-size: 250px;
    animation: cambiacolor 1s infinite, tilt-shaking 1s infinite;
