@@ -33,6 +33,10 @@ overflow-x: hidden;
  float: none;
  margin-right: -17px;
 }
+@keyframes blinker {
+  70% {
+  opacity: 0;
+}
 
 #botonplay {
   padding: 50px;
@@ -153,20 +157,34 @@ div.screen#ancla4 {
    src: url(LittlePaws.ttf);
    font-family: 'tipografia'; }
 
-
+/* texto doggy styel, utilizamos dos animaciones, una para que cambie de color y la otra para que se rote levemente*/
    .blink {
    text-align: center;
    padding: 20px;
    margin-top: 100px;
    font-family: 'tipografia';
    font-size: 250px;
-   animation: blinker 1.0s linear infinite;
+   animation-name: cambiacolor, tilt-shaking;
    color: #ff6a00;
 }
-
-   @keyframes blinker {
-   70% {
-   opacity: 0;
-   }
+  /* sacado de https://unused-css.com/blog/css-shake-animation/*/
+  @keyframes cambiacolor {
+  0%   {color: red;}
+  20%  {color: yellow;}
+  40%  {color: blue;}
+  60% {color: green;}
+  80% {color: hotpink;}
+  90% {color: orange;}
+  100% {color: purple;}
+}
+/* sacado de https://unused-css.com/blog/css-shake-animation/*/
+  @keyframes tilt-shaking {
+  0% { transform: rotate(0deg); }
+  25% { transform: rotate(5deg); }
+  50% { transform: rotate(0eg); }
+  75% { transform: rotate(-5deg); }
+  100% { transform: rotate(0deg); }
+}
+   
 }
      
