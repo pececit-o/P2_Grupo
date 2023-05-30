@@ -16,7 +16,7 @@ body {
   
   .fondo {
     position: absolute;
-    top: 100vh; /* Inicia fuera de la pantalla */
+    top: 100vh; 
     left: 0;
     width: 100%;
     height: 100vh;
@@ -31,7 +31,7 @@ body {
 
   .capa1 {
     position: absolute;
-    top: 100vh; /* Inicia fuera de la pantalla */
+    top: 100vh;
     left: 0;
     width: 100%;
     height: 100vh;
@@ -45,7 +45,7 @@ body {
   
   .capa2 {
     position: absolute;
-    top: 100vh; /* Inicia fuera de la pantalla */
+    top: 100vh; 
     left: 0;
     width: 100%;
     height: 100vh;
